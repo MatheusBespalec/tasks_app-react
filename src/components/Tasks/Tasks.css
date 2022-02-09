@@ -1,0 +1,19 @@
+.tasks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.tasks li:hover {
+  background-color: #ccc;
+}
+
+.tasks .btn {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tasks .btn.edit { color: #51c5de; }
+.tasks .btn.delete { color: #f04c64; }
